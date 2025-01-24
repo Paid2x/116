@@ -1,0 +1,27 @@
+:root {
+    --primary-color: #Af9fff;
+    --primary-color-100: #d5ccff;
+    --primary-color-300: #7f66ff;
+
+
+    --secondary-color: #025834;
+    --secondary-color-600: #04c876;
+    --secondary-color-900: #01321E;
+
+    --background-color: #1B1B1B;
+    --surface-color: #252525;
+    --neutral-color: #E0e0e0;
+
+    --lobster-font: "lobster two", sans-serif;
+    --dm-font: "DM Sans", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--dm-font);
+}
+
+html {
+    background-color: var(--background-color);
+}
